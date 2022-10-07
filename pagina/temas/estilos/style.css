@@ -26,16 +26,14 @@ footer {
 }
 
 body {
-
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
     color: #666;
-    background-color: #212121;
+    background-color: #000;
     font-size: 1em;
     line-height: 1.5em;
 }
-
 h1 {
     font-size: 2.3em;
     line-height: 1.3em;
@@ -61,7 +59,7 @@ img {
 }
 
 #main-header a {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /*
@@ -126,7 +124,7 @@ nav ul li a:hover {
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.384);
 }
 
 #main-content header,
